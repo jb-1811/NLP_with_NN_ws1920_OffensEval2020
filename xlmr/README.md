@@ -13,4 +13,8 @@ python run_offenseval.py --data_dir data/all_lang/for_training_final_model/ --mo
 Example command for evaluating trained model on English: <br>
 python run_offenseval.py --data_dir data/english/ --model_type xlmroberta --model_name_or_path xlm-roberta-base --output_dir exps_dir/ --task task_a --max_seq_length 150 --do_eval --language english --warmup_steps 2000 <br><br>
 
+For visualizing the attentions, we have provided the notebook we adapted from https://github.com/jessevig/bertviz. <br>
+
+We used this with Google Colab by uploading the trained model to Google drive, mounting the drive, and then loading the model into the notebook. 
+
 
