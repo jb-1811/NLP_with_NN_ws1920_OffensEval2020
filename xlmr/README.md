@@ -1,3 +1,5 @@
+The 'requirements.txt' has the necessary dependencies to run the following scripts. Make sure to use the correct Transformer library version (2.4.1) if not installing directly from the requirements.txt file.
+
 Example command for running offenseval training: <br>
 python run_language_modeling.py --train_data_file='data/all_lang/pretraining_data/train.tsv' --output_dir='pretrained_with_test-0/' --block_size=150 --do_train --line_by_line --mlm --model_name_or_path='xlm-roberta-base'
 --model_type='xlmroberta' <br><br>
