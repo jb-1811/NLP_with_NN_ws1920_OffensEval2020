@@ -1,6 +1,6 @@
 -- Language Processing with Neural Networks Project --
 
-Machine learning models by Johannes
+Machine learning models
 
 *********************************************************************************************************
 Getting results from the machine learning models is a 3-step process:
